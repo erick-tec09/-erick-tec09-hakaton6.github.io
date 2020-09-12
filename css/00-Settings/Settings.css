@@ -2,7 +2,38 @@
 
 :root{
 
+     /*  TIPOGRAFIAS */
 
-    --main-color: black;
+
+     --font-primary: Arial,  sans-serif;
+     --font-secundary: Helvetica, sans-serif;
+    
+    /*  Fuente Base */
+    --font-zise: 16px;
+
+
+    /* COLOR DE FONDO */
+
+    --bg-color: #316099; 
+
+    /*  HERO */
+    --hero-title: #F5F4FB;
+    --hero-text: #F5F4FB;
+
+    
+
+      /*  BLOG */
+    --title-color: #1F3F68;
+    --blog-title: #1F3F68;
+    --blog-text: rgba(0, 0, 0, 0.6);
+
+
+    --color-txt: rgba(255, 255, 255, 0.78);
+
+      /*  FOOTER */
+    --footer-title: #F5F4FB;
+    --footer-text: #F5F4FB;
+
+    
 }
 

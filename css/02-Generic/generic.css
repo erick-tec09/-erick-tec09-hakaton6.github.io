@@ -7,19 +7,3 @@
      box-sizing: border-box;
  }
 
- body{
-  
-  
- }
- a{
-     text-decoration: none;
-
- }
-
- li{
-     list-style: none;
- }
-
- input, label, textarea{
-     outline: none;
- }

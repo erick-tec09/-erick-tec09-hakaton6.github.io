@@ -1,0 +1,32 @@
+
+
+
+ /* ===========================header-menu=========================== */
+.menu{
+
+    display: flex;
+}
+
+.menu__list{
+
+    margin: 0px 10px;
+}
+
+.menu__link{
+
+    color: #1F3F68;
+    font-family: var(--font-secundary);
+    font-style: normal;
+   
+    font-size: 14px;
+    line-height: 28px;
+
+   
+    letter-spacing: 0.04em;
+    }
+.link-active{
+
+    font-weight: bold;
+}
+
+

@@ -1,1 +1,48 @@
-//layaut 
+
+
+
+ body{
+  
+  
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     width: 100%;
+    margin: 30px 0PX;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-secundary);
+
+}
+
+a{
+    text-decoration: none;
+    font-family: var(--font-secundary);
+
+}
+
+p{
+
+    font-family: var(--font-primary);
+}
+
+li{
+    list-style: none;
+}
+
+input, label, textarea{
+    outline: none;
+}
+
+section{
+
+}
+
+footer{
+
+}

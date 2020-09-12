@@ -1,0 +1,24 @@
+/* =======================blog======================= */
+.search__input{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7487a0;
+    background: #ebebeb;
+    padding: 10px 0px 10px 40px;
+    width: 100%;
+    
+}
+.search{
+
+   margin: 20px 0px;
+   position: relative;
+ 
+}
+.search__icon{
+
+   color: #7487a0;
+   font-size: 19px;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
