@@ -1,7 +1,7 @@
 .footer{
 
-    background: #316099;
-    color: white;
+    background: var( --bg-color);
+    color: var(--hero-text);
 
     border-radius: 0px 100px 0px 0px;
    
@@ -13,12 +13,12 @@
 }
 .title-h4{
 
-    font-family: Helvetica;
+    font-family:  var(--font-primary);
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
     line-height: 38px;
-   
+    font-weight: bold;
     width: 250px;
 }
 
@@ -33,7 +33,7 @@
     text-align: center;
     margin: 10px;
     animation: all 0.5s;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  var(--font-primary);
     
 }
 
@@ -49,16 +49,17 @@
 }
 .footer__btn:hover{
 
-    background: #2081d6;
+    background: #274e7e;
     color: white;
     cursor: pointer;
+    transition: all 0.5s;
     
     
 }
 
 
 .footer__parrafo{
-    font-family: Arial;
+    font-family:  var(--font-primary);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -69,7 +70,7 @@
     letter-spacing: 0.05em;
 }
 .foother__title{
-    font-family: Helvetica;
+    font-family: var(--font-secundary);
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -88,7 +89,7 @@ color: #FFFFFF;
      margin: 10px 0px;
 }
 .footer__link{
-    font-family: Arial;
+    font-family:  var(--font-primary);
 font-style: normal;
 
 font-size: 15px;
@@ -109,7 +110,7 @@ margin: 10px 0px;
 
 }
 .copy{
-    font-family: Arial;
+    font-family:  var(--font-primary);
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -120,3 +121,4 @@ letter-spacing: 0.05em;
 color: white;
 opacity: 0.4;
 
+}

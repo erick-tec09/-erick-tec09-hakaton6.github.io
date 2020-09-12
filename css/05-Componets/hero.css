@@ -19,7 +19,7 @@
     line-height: 64px;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--hero-text);
 }
 
 .hero__paffaro{

@@ -1,9 +1,9 @@
 /* =======================blog======================= */
 .search__input{
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #7487a0;
-    background: #ebebeb;
+    font-family: var(--font-primary);
+    color: var(--color-imput);
+    background: var(--bg-imput);
     padding: 10px 0px 10px 40px;
     width: 100%;
     
@@ -16,7 +16,7 @@
 }
 .search__icon{
 
-   color: #7487a0;
+   color: var(--color-imput);
    font-size: 19px;
    position: absolute;
    top: 10px;

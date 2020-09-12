@@ -3,6 +3,20 @@
 
 /* =======================post======================= */
 
+.separator{
+   
+}
+.separator__text{
+
+   font-family:  var(--font-secundary);
+   color: #5d8bbd;
+   text-transform: uppercase;
+   border-bottom: 1px solid rgba(153, 153, 153, 0.575);
+   
+   width: 100%;
+   text-align: right;
+   padding: 0px 0px 10px 0px;
+}
 .post{
 
  
@@ -28,16 +42,16 @@
 
 .parrafo--date{
 
-   font-family: Arial;
+   font-family:  var(--font-primary);
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
    line-height: 26px;
    
-   /* or 186% */
+
    letter-spacing: 0.04em;
    
-   color: rgba(0, 0, 0, 0.6);
+   color: var/(--blog-text);
    opacity: 0.5;
 }
 
@@ -57,16 +71,15 @@
 }
 
 .parrafo-article{
-   font-family: Arial;
+   font-family:  var(--font-primary);
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
    line-height: 26px;
-   
-   /* or 186% */
+
    letter-spacing: 0.04em;
    
-   color: rgba(0, 0, 0, 0.6);
+   color: var(--blog-text);
 }
 
 .article-desc--post{

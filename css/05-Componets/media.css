@@ -121,6 +121,27 @@
             width: 100%;
             height: 250px;
         }
+
+        .title-h4{
+
+            margin-top: 20px;
+        }
+
+        .footer__content{
+
+            position: relative;
+        }
+        .footer__parrafo{
+
+            width: 500px;
+         
+        }
+
+        .footer__btn{
+            position: absolute;
+            top: 90px;
+            right: 100px;
+        }
     
      }
     
