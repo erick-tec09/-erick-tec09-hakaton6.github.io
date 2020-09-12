@@ -1,0 +1,89 @@
+*, *::before, *::after{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.background-color{
+
+    background:  #316099;
+    color: white;
+}
+
+
+
+.titles{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #5d8bbd;
+    margin: 20px 0px;
+}
+
+.parrafo{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    
+    /* or 186% */
+    letter-spacing: 0.04em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.article-foother{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+i{
+    color: #5d8bbd;
+    cursor: pointer;
+}
+i:hover{
+    color: #1F3F68;
+    transform: scale(1.2);
+}
+
+.h2{
+    color: #1F3F68;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.h3{
+
+    color: #1F3F68;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
