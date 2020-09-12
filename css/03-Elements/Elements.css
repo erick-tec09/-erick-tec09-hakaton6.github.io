@@ -25,7 +25,17 @@ a{
     font-family: var(--font-secundary);
 
 }
+img{
 
+    transition: .3s ease-in-out;
+}
+img:hover{
+    
+    transform: scale(0.9);
+    
+    padding: 5px ;
+    background: #5d8bbd;
+}
 p{
 
     font-family: var(--font-primary);
